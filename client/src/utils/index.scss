@@ -1,0 +1,36 @@
+.btn{
+    background-color: darkcyan;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:disabled{
+        opacity: .5;
+    }
+
+    &:active{
+        transform: scale(.98);
+    }
+
+    &:hover{
+        opacity: .9;
+    }
+}
+
+.btn.danger{
+    background-color: red;
+}
+
+.btn.success{
+    background-color: darkcyan;
+}
+
+.btn.warning{
+    background-color: gold;
+}
