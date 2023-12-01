@@ -1,0 +1,19 @@
+{
+    "sidebar" : [
+        {
+            "id" : 1,
+            "title" : "Students",
+            "link" : "/admin"
+        },
+        {
+            "id" : 2,
+            "title" : "Attendance",
+            "link" : "/admin/attendances"
+        },
+        {
+            "id" : 3,
+            "title" : "Profile",
+            "link" : "/admin/profile"
+        }
+    ]
+}
