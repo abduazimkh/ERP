@@ -1,0 +1,60 @@
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: darkcyan;
+    padding: 20px ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__profile{
+    margin-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color :  #fff;
+    .profile__avatar{
+        min-width: 40px !important;
+        min-height: 40px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: #fff;
+        color : #000;
+    }
+}
+
+.sidebar__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    flex: 1;
+    .list__item{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        padding-left: 0;
+        border-radius: 5px;
+        .link{
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            display: block;
+            width: 100%;
+            padding: 10px ;
+            &--active {
+                background-color: #fff;                
+                color: darkcyan;
+            }
+        }
+    }
+}
